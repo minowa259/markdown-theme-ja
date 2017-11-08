@@ -1,0 +1,60 @@
+/* 
+https://github.com/minowa259/markdown-theme-ja
+v1.0
+License: none (public domain)
+*/
+
+body * {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    color: #6cb4e4;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    border-top: solid 2px #6cb4e4;
+    border-bottom: solid 2px #6cb4e4;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+}
+
+h2 {
+    font-size: 14px;
+    background-color: #eee;
+    padding-left: 5px;
+    font-weight: 600;
+    margin: 20px 0px;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 20px 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #666;
+}
+
+blockquote {
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #666;
+}
+
+ul,
+ol {
+    margin: 10px 0px;
+    padding: 0px 0px 0px 15px;
+}
+
+ul li,
+ol li {
+    margin: 5px;
+    padding: 1px 0px 1px 10px;
+}
+
+table tr th {
+    background-color: #eee;
+}
